@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <style>
+            #word-drop-box {
+                border: 1px solid #ccc;
+                height: 500px;
+                position: relative;
+            }
+            
+            #answer-form {
+                margin-top: 30px;
+            }
+            #answer {
+                width: 80%;
+                margin-right: 10px;
+            }
+
+            #answer-submit-btn {
+                width: 15%;
+            }
+
+            .word-box {
+                border: 1px solid #aaa;
+                text-align: center;
+                position: absolute;
+                width: 200px;
+                top: 1px;
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+
+        <div id="game">
+            <div id="score-box">0</div>
+            <div id="word-drop-box">
+                
+            </div>
+            <form id="answer-form">
+                <input type="text" id="answer"/>
+                <input type="submit" value="입력" id="answer-submit-btn" />
+            </form>
+        </div>
+
+        <script src="./1010.raindrop.js"></script>
+        
+
+    </body>
+</html>
